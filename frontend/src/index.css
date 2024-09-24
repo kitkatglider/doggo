@@ -69,6 +69,9 @@ button:focus-visible {
   height: 200px;
   width: 200px;
   margin-right: 15px;
+  border-radius: 20px;
+  outline: 2px solid rgb(87, 53, 189);
+  box-shadow: 0px 0px 50px #25cfd2;
 }
 
 /* .pic:hover {
@@ -94,5 +97,19 @@ button:focus-visible {
 }
 
 .container {
+  text-align: center;
+}
 
+.details span {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #1a4744;
+}
+
+.details p {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.breed-name {
+  color: rgb(87, 53, 189);
 }
